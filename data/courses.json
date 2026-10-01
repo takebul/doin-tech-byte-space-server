@@ -1,0 +1,1919 @@
+[
+  {
+    "id": 1,
+    "slug": "learn-figma-from-basic",
+    "title": "Learn Figma from Basic",
+    "author": "purepearl studio",
+    "authorId": "purepearl-studio",
+    "authorAvatar": "/user-creator-avatar.jpg",
+    "authorBio": "Passionate UI/UX designer with 8+ years experience guiding tens of thousands of designers worldwide.",
+    "rating": 4.8,
+    "level": "Beginner",
+    "price": 25,
+    "currency": "$",
+    "billing": "lifetime",
+    "image": "/course-1.png",
+    "category": "UI/UX Design",
+    "lessons": "17 Lessons",
+    "lessonsCount": 17,
+    "duration": "2 hours 16 mins",
+    "comments": "59 Comments",
+    "commentsCount": 59,
+    "description": "Master modern Figma workflows from zero to pro, covering vector tools, auto layout 5.0, variables, and clickable prototypes.",
+    "overview": "This foundational Figma masterclass takes you from absolute beginner to confident product designer. You will build production-grade web interfaces, master smart autolayout frames, configure reusable components, and create seamless handoffs for frontend developers.",
+    "whatYouWillLearn": [
+      "Master Figma canvas navigation, keyboard shortcuts, and vector network tools",
+      "Build dynamic layouts with Auto Layout, min/max widths, and responsive wrapping",
+      "Construct scalable design components with property variants and boolean toggles",
+      "Create interactive micro-prototypes with smart animate and device frames"
+    ],
+    "syllabus": [
+      {
+        "sectionTitle": "Section 1: Figma Foundations & Workspace",
+        "lessons": [
+          {
+            "number": "01",
+            "title": "Introduction to Digital Assets & Modern UI",
+            "duration": "12 mins",
+            "preview": true
+          },
+          {
+            "number": "02",
+            "title": "Canvas Mastery, Frames & Vector Networks",
+            "duration": "21 mins",
+            "preview": false
+          },
+          {
+            "number": "03",
+            "title": "Color Styles, Typography & Variable Tokens",
+            "duration": "16 mins",
+            "preview": false
+          }
+        ]
+      },
+      {
+        "sectionTitle": "Section 2: Components & Responsive Systems",
+        "lessons": [
+          {
+            "number": "04",
+            "title": "Mastering Auto Layout 5.0 & Wrap Properties",
+            "duration": "18 mins",
+            "preview": true
+          },
+          {
+            "number": "05",
+            "title": "Component Sets, Variants & Boolean Properties",
+            "duration": "24 mins",
+            "preview": false
+          },
+          {
+            "number": "06",
+            "title": "Smart Animate & Micro-Interactions",
+            "duration": "22 mins",
+            "preview": false
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "id": 1,
+        "user": "Sarah Jenkins",
+        "rating": 5,
+        "comment": "The clearest Figma tutorial I have ever watched. Auto layout finally clicked for me!",
+        "date": "2 days ago"
+      },
+      {
+        "id": 2,
+        "user": "Liam Patel",
+        "rating": 4.8,
+        "comment": "Extremely practical and concise. The component architecture tips saved our team days.",
+        "date": "1 week ago"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "slug": "build-digital-asset-design-systems",
+    "title": "Build Digital Asset & UI Libraries",
+    "author": "Aura Creative Lab",
+    "authorId": "aura-creative-lab",
+    "authorAvatar": "/creator-purepearl-avatar.png",
+    "authorBio": "Specialist studio building enterprise design systems and icon ecosystems for global tech platforms.",
+    "rating": 4.9,
+    "level": "Intermediate",
+    "price": 29,
+    "currency": "$",
+    "billing": "lifetime",
+    "image": "/course-2.png",
+    "category": "Graphic Design",
+    "lessons": "24 Lessons",
+    "lessonsCount": 24,
+    "duration": "3 hours 42 mins",
+    "comments": "88 Comments",
+    "commentsCount": 88,
+    "description": "Architect scalable vector icon sets, component libraries, and digital asset kits ready for commercial distribution.",
+    "overview": "Learn how professional design agencies build, organize, and monetize complete digital asset packs. From standardizing 24px pixel grids to exporting multi-format SVG, React JSX icons, and Figma Community kits, this course covers the entire asset lifecycle.",
+    "whatYouWillLearn": [
+      "Design consistent 24px and 32px icon sets on strict optical grids",
+      "Establish token naming conventions for cross-platform asset sync",
+      "Export and automate SVG, PDF, and React component code pipelines",
+      "Package, license, and market digital assets on top creator marketplaces"
+    ],
+    "syllabus": [
+      {
+        "sectionTitle": "Section 1: Optical Grid & Icon Foundations",
+        "lessons": [
+          {
+            "number": "01",
+            "title": "The Geometry of Consistent Iconography",
+            "duration": "15 mins",
+            "preview": true
+          },
+          {
+            "number": "02",
+            "title": "Stroke Weight, Corner Radii & Visual Balance",
+            "duration": "22 mins",
+            "preview": false
+          },
+          {
+            "number": "03",
+            "title": "Batch Vector Optimization & Clean Paths",
+            "duration": "19 mins",
+            "preview": false
+          }
+        ]
+      },
+      {
+        "sectionTitle": "Section 2: Library Architecture & Distribution",
+        "lessons": [
+          {
+            "number": "04",
+            "title": "Structuring Multi-Tier Component Libraries",
+            "duration": "26 mins",
+            "preview": true
+          },
+          {
+            "number": "05",
+            "title": "Automated Export Scripts for React & Vue",
+            "duration": "20 mins",
+            "preview": false
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "id": 1,
+        "user": "Marcus Brody",
+        "rating": 5,
+        "comment": "I sold my first icon pack within two weeks of finishing this course!",
+        "date": "3 days ago"
+      },
+      {
+        "id": 2,
+        "user": "Jessica Chen",
+        "rating": 4.9,
+        "comment": "The grid consistency rules alone are worth 10x the price.",
+        "date": "2 weeks ago"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "slug": "the-power-of-big-data-analytics",
+    "title": "The Power of Big Data Analytics",
+    "author": "Nexus Data Studio",
+    "authorId": "nexus-data-studio",
+    "authorAvatar": "/avatar-1.png",
+    "authorBio": "Data architects and visualization experts helping modern organizations turn massive datasets into actionable insight.",
+    "rating": 4.7,
+    "level": "Advanced",
+    "price": 39,
+    "currency": "$",
+    "billing": "lifetime",
+    "image": "/course-3.png",
+    "category": "Data Science",
+    "lessons": "21 Lessons",
+    "lessonsCount": 21,
+    "duration": "4 hours 15 mins",
+    "comments": "104 Comments",
+    "commentsCount": 104,
+    "description": "Unlock actionable intelligence from millions of data points through scalable pipelines, SQL modeling, and predictive metrics.",
+    "overview": "Dive deep into modern enterprise analytics architecture. Discover how high-growth tech firms ingest streaming metrics, structure cloud warehouses, execute low-latency analytical queries, and present real-time telemetry dashboards for executive decision makers.",
+    "whatYouWillLearn": [
+      "Architect scalable big data ingestion pipelines with cloud storage and databases",
+      "Write high-efficiency SQL transformations and aggregation queries",
+      "Model user behavioral telemetry and cohort retention analysis",
+      "Deliver automated executive BI dashboards with real-time alerts"
+    ],
+    "syllabus": [
+      {
+        "sectionTitle": "Section 1: Data Architecture & Storage Engines",
+        "lessons": [
+          {
+            "number": "01",
+            "title": "Modern Analytics Stack Overview",
+            "duration": "18 mins",
+            "preview": true
+          },
+          {
+            "number": "02",
+            "title": "Columnar Storage vs Relational Query Engines",
+            "duration": "25 mins",
+            "preview": false
+          },
+          {
+            "number": "03",
+            "title": "Partitioning, Clustering & Cost Optimization",
+            "duration": "23 mins",
+            "preview": false
+          }
+        ]
+      },
+      {
+        "sectionTitle": "Section 2: Practical Telemetry & Predictive Models",
+        "lessons": [
+          {
+            "number": "04",
+            "title": "Cohort Analysis & Retention Funnels in SQL",
+            "duration": "32 mins",
+            "preview": true
+          },
+          {
+            "number": "05",
+            "title": "Automated Data Quality & Anomaly Detection",
+            "duration": "28 mins",
+            "preview": false
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "id": 1,
+        "user": "David Miller",
+        "rating": 5,
+        "comment": "Directly helped me land a Senior Data Analyst role at a Series B startup.",
+        "date": "5 days ago"
+      },
+      {
+        "id": 2,
+        "user": "Amara Okonjo",
+        "rating": 4.6,
+        "comment": "Deep, rigorous, and packed with practical SQL examples.",
+        "date": "3 weeks ago"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "slug": "balancing-productivity-and-creative-flow",
+    "title": "Balancing Productivity & Creative Flow",
+    "author": "Elena Vance",
+    "authorId": "elena-vance",
+    "authorAvatar": "/avatar-2.png",
+    "authorBio": "Author, cognitive productivity coach, and former design director focused on high-performance creative routines.",
+    "rating": 4.6,
+    "level": "All Levels",
+    "price": 19,
+    "currency": "$",
+    "billing": "lifetime",
+    "image": "/course-4.png",
+    "category": "Productivity",
+    "lessons": "15 Lessons",
+    "lessonsCount": 15,
+    "duration": "1 hour 55 mins",
+    "comments": "47 Comments",
+    "commentsCount": 47,
+    "description": "Overcome creative burnout, design focused deep-work rituals, and build sustainable habits that double your creative output.",
+    "overview": "Productivity for creators is fundamentally different than assembly-line checklists. This course teaches science-backed neuro-productivity frameworks: managing cognitive energy rather than just time, building friction-free creative workstations, and entering deep creative flow on demand.",
+    "whatYouWillLearn": [
+      "Eliminate decision fatigue and setup an effortless daily creative kickoff",
+      "Master time-boxing and ultradian rhythm alignment for 4-hour deep focus blocks",
+      "Prevent burnout with cognitive replenishment and structured rest cycles",
+      "Organize client projects, assets, and task pipelines with minimal friction"
+    ],
+    "syllabus": [
+      {
+        "sectionTitle": "Section 1: The Neuroscience of Creative Flow",
+        "lessons": [
+          {
+            "number": "01",
+            "title": "Why Conventional Productivity Fails Creatives",
+            "duration": "14 mins",
+            "preview": true
+          },
+          {
+            "number": "02",
+            "title": "Engineering Frictionless Deep Work Environments",
+            "duration": "17 mins",
+            "preview": false
+          },
+          {
+            "number": "03",
+            "title": "The 90-Minute Ultradian Focus Sprint",
+            "duration": "16 mins",
+            "preview": false
+          }
+        ]
+      },
+      {
+        "sectionTitle": "Section 2: Sustainable Creative Systems",
+        "lessons": [
+          {
+            "number": "04",
+            "title": "Taming Client Communication & Interruptions",
+            "duration": "15 mins",
+            "preview": true
+          },
+          {
+            "number": "05",
+            "title": "Daily Debriefs & Cognitive Energy Auditing",
+            "duration": "18 mins",
+            "preview": false
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "id": 1,
+        "user": "Thomas Wright",
+        "rating": 5,
+        "comment": "I cut my working hours by 20% while producing better work than ever.",
+        "date": "1 week ago"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "slug": "financial-modeling-for-creators",
+    "title": "Mastering Money & Financial Growth",
+    "author": "Marcus Sterling",
+    "authorId": "marcus-sterling",
+    "authorAvatar": "/avatar-3.png",
+    "authorBio": "Chartered financial analyst and CFO consultant for digital creators, creative agencies, and indie founders.",
+    "rating": 4.7,
+    "level": "Intermediate",
+    "price": 32,
+    "currency": "$",
+    "billing": "lifetime",
+    "image": "/course-5.png",
+    "category": "Freelance & Entrepreneurship",
+    "lessons": "18 Lessons",
+    "lessonsCount": 18,
+    "duration": "2 hours 40 mins",
+    "comments": "72 Comments",
+    "commentsCount": 72,
+    "description": "Take control of creator finances, price projects with confidence, automate tax reserves, and build passive wealth engines.",
+    "overview": "Stop trading hours for dollars with zero safety net. Learn how elite freelancers and digital studios price projects using value metrics, manage cash flow volatility, structure corporate entities, and invest company profits into diversified growth assets.",
+    "whatYouWillLearn": [
+      "Transition from low hourly rates to value-based high-ticket retainers",
+      "Automate income splits for taxes, operating expenses, and creator profit",
+      "Model cash flow forecasts to safely scale studio capacity and hire contractors",
+      "Establish retirement accounts and compounding investments from studio revenue"
+    ],
+    "syllabus": [
+      {
+        "sectionTitle": "Section 1: Value Pricing & Retainer Contracts",
+        "lessons": [
+          {
+            "number": "01",
+            "title": "The Death of Hourly Billing",
+            "duration": "16 mins",
+            "preview": true
+          },
+          {
+            "number": "02",
+            "title": "Calculating ROI to Command $10k+ Project Fees",
+            "duration": "24 mins",
+            "preview": false
+          },
+          {
+            "number": "03",
+            "title": "Crafting Bulletproof Client Retainer Agreements",
+            "duration": "19 mins",
+            "preview": false
+          }
+        ]
+      },
+      {
+        "sectionTitle": "Section 2: Cash Flow Engines & Wealth Systems",
+        "lessons": [
+          {
+            "number": "04",
+            "title": "The 5-Account Creator Banking Architecture",
+            "duration": "21 mins",
+            "preview": true
+          },
+          {
+            "number": "05",
+            "title": "Investing Retained Earnings for Passive Yield",
+            "duration": "25 mins",
+            "preview": false
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "id": 1,
+        "user": "Daniel Craig",
+        "rating": 5,
+        "comment": "Doubled my monthly retainer within 30 days of applying the negotiation frameworks.",
+        "date": "4 days ago"
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "slug": "from-idea-to-startup-launch",
+    "title": "From Idea to Startup Launch",
+    "author": "VentureCraft Studio",
+    "authorId": "venturecraft-studio",
+    "authorAvatar": "/avatar-4.png",
+    "authorBio": "Serial entrepreneurs and product architects who have launched 14 bootstrapped software products.",
+    "rating": 4.9,
+    "level": "Intermediate",
+    "price": 45,
+    "currency": "$",
+    "billing": "lifetime",
+    "image": "/course-6.png",
+    "category": "Marketing",
+    "lessons": "26 Lessons",
+    "lessonsCount": 26,
+    "duration": "4 hours 30 mins",
+    "comments": "135 Comments",
+    "commentsCount": 135,
+    "description": "Validate digital product ideas rapidly, build high-converting landing pages, and acquire your first 1,000 paying users.",
+    "overview": "A battle-tested blueprint for taking raw software, digital product, or service concepts into market validation. Discover smoke-testing strategies, customer interview techniques, no-code MVP development, and viral product hunt launch playbooks.",
+    "whatYouWillLearn": [
+      "Validate product demand and willing-to-pay before writing a line of code",
+      "Design high-converting waitlist funnels and landing pages that convert at 15%+",
+      "Build functional MVPs using modern web stacks and headless APIs",
+      "Execute high-impact launch sequences across Product Hunt, X, and creator communities"
+    ],
+    "syllabus": [
+      {
+        "sectionTitle": "Section 1: Idea Discovery & Smoke Testing",
+        "lessons": [
+          {
+            "number": "01",
+            "title": "Finding Pain Points Worth Paying For",
+            "duration": "20 mins",
+            "preview": true
+          },
+          {
+            "number": "02",
+            "title": "Building a 24-Hour Smoke Test Landing Page",
+            "duration": "25 mins",
+            "preview": false
+          },
+          {
+            "number": "03",
+            "title": "Customer Problem Interviews Without Pitching",
+            "duration": "22 mins",
+            "preview": false
+          }
+        ]
+      },
+      {
+        "sectionTitle": "Section 2: MVP Execution & Launch Strategy",
+        "lessons": [
+          {
+            "number": "04",
+            "title": "Scoping Minimum Viable Feature Sets",
+            "duration": "24 mins",
+            "preview": true
+          },
+          {
+            "number": "05",
+            "title": "Product Hunt & Social Launch Playbook",
+            "duration": "30 mins",
+            "preview": false
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "id": 1,
+        "user": "Rachel Kim",
+        "rating": 5,
+        "comment": "Launched our MVP in 3 weeks and hit $3k MRR on day one thanks to these launch steps.",
+        "date": "3 days ago"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "slug": "advanced-ui-motion-and-interaction",
+    "title": "Advanced UI Motion & Interaction",
+    "author": "CyberFlux Studio",
+    "authorId": "cyberflux-studio",
+    "authorAvatar": "/avatar-5.png",
+    "authorBio": "Award-winning creative technologist specializing in WebGL, CSS physics animations, and fluid motion design.",
+    "rating": 4.9,
+    "level": "Advanced",
+    "price": 35,
+    "currency": "$",
+    "billing": "lifetime",
+    "image": "/course-7.png",
+    "category": "Animation",
+    "lessons": "22 Lessons",
+    "lessonsCount": 22,
+    "duration": "3 hours 15 mins",
+    "comments": "94 Comments",
+    "commentsCount": 94,
+    "description": "Infuse modern digital products with buttery-smooth spring physics, scroll animations, and spatial UI transitions.",
+    "overview": "Elevate your web and mobile interfaces from static screens to living, responsive experiences. Learn spring physics, gesture-driven card interactions, layout transitions with Framer Motion, and high-performance WebGL glassmorphism shaders.",
+    "whatYouWillLearn": [
+      "Master spring physics parameters: stiffness, damping, and mass for natural feel",
+      "Build scroll-driven timeline animations without layout thrashing or stutter",
+      "Implement shared element transitions and morphing SVG vector paths",
+      "Optimize hardware-accelerated animations for 60fps across mobile browsers"
+    ],
+    "syllabus": [
+      {
+        "sectionTitle": "Section 1: Physics, Curves & Motion Theory",
+        "lessons": [
+          {
+            "number": "01",
+            "title": "The 12 Principles of Interaction Motion",
+            "duration": "16 mins",
+            "preview": true
+          },
+          {
+            "number": "02",
+            "title": "Spring Physics vs Cubic Bézier Easing",
+            "duration": "24 mins",
+            "preview": false
+          },
+          {
+            "number": "03",
+            "title": "Spatial Choreography & Stagger Sequences",
+            "duration": "20 mins",
+            "preview": false
+          }
+        ]
+      },
+      {
+        "sectionTitle": "Section 2: Code Implementation with Motion",
+        "lessons": [
+          {
+            "number": "04",
+            "title": "Framer Motion Layout Animations & Drag Controls",
+            "duration": "28 mins",
+            "preview": true
+          },
+          {
+            "number": "05",
+            "title": "Scroll-Driven Parallax & GPU Optimization",
+            "duration": "25 mins",
+            "preview": false
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "id": 1,
+        "user": "Felix Moreau",
+        "rating": 5,
+        "comment": "The best motion course on the internet. Every front-end engineer needs this.",
+        "date": "1 day ago"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "slug": "visual-storytelling-illustration",
+    "title": "Visual Storytelling & Illustration",
+    "author": "Maya Lin Illustration",
+    "authorId": "maya-lin",
+    "authorAvatar": "/avatar-6.png",
+    "authorBio": "Editorial illustrator and visual storyteller featured in The New Yorker, Wired, and Apple Design Award apps.",
+    "rating": 4.8,
+    "level": "Beginner",
+    "price": 28,
+    "currency": "$",
+    "billing": "lifetime",
+    "image": "/course-8.png",
+    "category": "Digital Illustration",
+    "lessons": "20 Lessons",
+    "lessonsCount": 20,
+    "duration": "3 hours 05 mins",
+    "comments": "82 Comments",
+    "commentsCount": 82,
+    "description": "Learn composition, color harmony, and character conceptualization to communicate compelling stories through digital art.",
+    "overview": "Transform sketches into breathtaking narrative artworks. This hands-on masterclass walks you through thumb-nailing, focal point hierarchy, ambient lighting, brush textures, and crafting emotional resonance in both editorial and brand illustration.",
+    "whatYouWillLearn": [
+      "Develop unique illustration concepts from abstract editorial briefs",
+      "Establish strong compositions using the rule of thirds, leading lines, and value contrast",
+      "Harmonize evocative color palettes that set atmosphere and tone",
+      "Refine digital textures, lighting highlights, and professional print/web exports"
+    ],
+    "syllabus": [
+      {
+        "sectionTitle": "Section 1: Composition & Conceptual Sketching",
+        "lessons": [
+          {
+            "number": "01",
+            "title": "Finding Your Visual Voice",
+            "duration": "15 mins",
+            "preview": true
+          },
+          {
+            "number": "02",
+            "title": "Thumbnailing & Focal Hierarchy",
+            "duration": "22 mins",
+            "preview": false
+          },
+          {
+            "number": "03",
+            "title": "Lighting, Value Studies & Mood Creation",
+            "duration": "21 mins",
+            "preview": false
+          }
+        ]
+      },
+      {
+        "sectionTitle": "Section 2: Digital Painting & Final Polish",
+        "lessons": [
+          {
+            "number": "04",
+            "title": "Color Theory for Emotional Impact",
+            "duration": "25 mins",
+            "preview": true
+          },
+          {
+            "number": "05",
+            "title": "Brushwork, Texturing & Layer Management",
+            "duration": "27 mins",
+            "preview": false
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "id": 1,
+        "user": "Oliver Grant",
+        "rating": 5,
+        "comment": "Maya breaks down color lighting in a way that is immediately intuitive and fun.",
+        "date": "6 days ago"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "slug": "modern-web-architecture-react-nextjs",
+    "title": "Modern Web Architecture & Next.js",
+    "author": "DevStack Collective",
+    "authorId": "devstack-collective",
+    "authorAvatar": "/avatar-1.png",
+    "authorBio": "Principal software engineers training teams in modern full-stack TypeScript, React 19, and cloud infrastructure.",
+    "rating": 4.95,
+    "level": "Intermediate",
+    "price": 49,
+    "currency": "$",
+    "billing": "lifetime",
+    "image": "/course-9.png",
+    "category": "Web Development",
+    "lessons": "30 Lessons",
+    "lessonsCount": 30,
+    "duration": "5 hours 20 mins",
+    "comments": "156 Comments",
+    "commentsCount": 156,
+    "description": "Build ultra-fast, production-ready web apps with Next.js App Router, Server Actions, MongoDB, and Tailwind CSS.",
+    "overview": "Go beyond toy tutorials to build industrial-grade web applications. Learn Next.js server components, streaming SSR, auth integration, edge middleware, optimistic UI state, database indexing, and automated production deployment pipelines.",
+    "whatYouWillLearn": [
+      "Master the Next.js App Router, nested layouts, parallel routes, and error boundaries",
+      "Implement server-first data mutations with Server Actions and optimistic updates",
+      "Secure authentication, cookie sessions, and role-based permissions",
+      "Deploy scalable production applications with zero cold-starts and maximum Lighthouse scores"
+    ],
+    "syllabus": [
+      {
+        "sectionTitle": "Section 1: App Router Fundamentals & Data Flow",
+        "lessons": [
+          {
+            "number": "01",
+            "title": "React Server Components Architecture",
+            "duration": "22 mins",
+            "preview": true
+          },
+          {
+            "number": "02",
+            "title": "Streaming UI, Suspense & Skeleton Fallbacks",
+            "duration": "26 mins",
+            "preview": false
+          },
+          {
+            "number": "03",
+            "title": "Database Architecture with MongoDB Atlas",
+            "duration": "28 mins",
+            "preview": false
+          }
+        ]
+      },
+      {
+        "sectionTitle": "Section 2: Production Patterns & Security",
+        "lessons": [
+          {
+            "number": "04",
+            "title": "Secure Cookie Session Auth & Middleware",
+            "duration": "31 mins",
+            "preview": true
+          },
+          {
+            "number": "05",
+            "title": "Performance Tuning & Edge Deployment",
+            "duration": "29 mins",
+            "preview": false
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "id": 1,
+        "user": "Ethan Brooks",
+        "rating": 5,
+        "comment": "The single best Next.js course available. Clean code architecture and no fluff.",
+        "date": "2 days ago"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "slug": "interactive-dashboard-data-ui",
+    "title": "Interactive Dashboard & Data UI",
+    "author": "Finlytix Design",
+    "authorId": "finlytix-design",
+    "authorAvatar": "/avatar-2.png",
+    "authorBio": "Specialist fintech and enterprise dashboard design team crafting mission-critical interfaces for Fortune 500 apps.",
+    "rating": 4.8,
+    "level": "Intermediate",
+    "price": 34,
+    "currency": "$",
+    "billing": "lifetime",
+    "image": "/course-10.png",
+    "category": "UI/UX Design",
+    "lessons": "19 Lessons",
+    "lessonsCount": 19,
+    "duration": "2 hours 50 mins",
+    "comments": "68 Comments",
+    "commentsCount": 68,
+    "description": "Design high-density, accessible enterprise dashboards, financial charts, and real-time metric visualization systems.",
+    "overview": "Master the subtle art of high-density UI design. Learn how to arrange data tables, complex filtering drawers, interactive chart tooltips, and dark-mode glassmorphic cards without overwhelming user attention or compromising accessibility.",
+    "whatYouWillLearn": [
+      "Structure multi-tier enterprise dashboards with clear information hierarchy",
+      "Design accessible charts with colorblind-safe palettes and contrast standards",
+      "Build high-density data tables with sorting, filtering, and bulk actions",
+      "Handle real-time updating states, sparklines, and loading placeholders"
+    ],
+    "syllabus": [
+      {
+        "sectionTitle": "Section 1: Information Hierarchy & Data Layouts",
+        "lessons": [
+          {
+            "number": "01",
+            "title": "Principles of High-Density Data Display",
+            "duration": "16 mins",
+            "preview": true
+          },
+          {
+            "number": "02",
+            "title": "Chart Selection: Bar, Area, Donut & Sparklines",
+            "duration": "23 mins",
+            "preview": false
+          },
+          {
+            "number": "03",
+            "title": "Designing for Multi-Tenant Permissions",
+            "duration": "20 mins",
+            "preview": false
+          }
+        ]
+      },
+      {
+        "sectionTitle": "Section 2: Interactive Controls & Dark Mode",
+        "lessons": [
+          {
+            "number": "04",
+            "title": "Figma Variables for Dynamic Dark/Light Theme",
+            "duration": "25 mins",
+            "preview": true
+          },
+          {
+            "number": "05",
+            "title": "Data Table Architecture & Micro-Interactions",
+            "duration": "24 mins",
+            "preview": false
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "id": 1,
+        "user": "Sophia Turner",
+        "rating": 5,
+        "comment": "Finally an enterprise dashboard course that focuses on real-world constraints!",
+        "date": "1 week ago"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "slug": "freelance-design-high-ticket-clients",
+    "title": "Freelance Design & High-Ticket Clients",
+    "author": "Kaelen Voss",
+    "authorId": "kaelen-voss",
+    "authorAvatar": "/avatar-3.png",
+    "authorBio": "Independent design consultant who has billed over $1.2M in client projects over a 7-year solo career.",
+    "rating": 4.75,
+    "level": "All Levels",
+    "price": 29,
+    "currency": "$",
+    "billing": "lifetime",
+    "image": "/course-11.png",
+    "category": "Freelance & Entrepreneurship",
+    "lessons": "16 Lessons",
+    "lessonsCount": 16,
+    "duration": "2 hours 10 mins",
+    "comments": "61 Comments",
+    "commentsCount": 61,
+    "description": "Position yourself as an indispensable strategic design partner, command $10k+ project fees, and sign dream clients.",
+    "overview": "Break free from gig platforms and feast-or-famine income swings. Learn outbound client acquisition, portfolio presentation that sells business outcomes, objection handling on sales calls, and structuring win-win project proposals.",
+    "whatYouWillLearn": [
+      "Position your studio to attract premium funded startups and global brands",
+      "Structure client discovery calls that uncover real business ROI",
+      "Write persuasive proposals with 3-tier pricing that eliminate price haggling",
+      "Build long-term advisory retainers for predictable recurring monthly income"
+    ],
+    "syllabus": [
+      {
+        "sectionTitle": "Section 1: Studio Positioning & The High-Value Offer",
+        "lessons": [
+          {
+            "number": "01",
+            "title": "Escaping the Commodity Trap",
+            "duration": "14 mins",
+            "preview": true
+          },
+          {
+            "number": "02",
+            "title": "Case Studies That Sell: Showing Business Impact",
+            "duration": "21 mins",
+            "preview": false
+          },
+          {
+            "number": "03",
+            "title": "Conducting High-Conversion Discovery Calls",
+            "duration": "19 mins",
+            "preview": false
+          }
+        ]
+      },
+      {
+        "sectionTitle": "Section 2: Proposals, Pricing & Closing",
+        "lessons": [
+          {
+            "number": "04",
+            "title": "The 3-Option Proposal Architecture",
+            "duration": "22 mins",
+            "preview": true
+          },
+          {
+            "number": "05",
+            "title": "Handling Price Resistance with Confidence",
+            "duration": "18 mins",
+            "preview": false
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "id": 1,
+        "user": "Lucas Vance",
+        "rating": 5,
+        "comment": "Closed my first $8,500 project using the exact proposal template in lesson 4.",
+        "date": "4 days ago"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "slug": "creative-brand-marketing-social-growth",
+    "title": "Creative Brand Marketing & Social Growth",
+    "author": "Pulse Creative Media",
+    "authorId": "pulse-creative-media",
+    "authorAvatar": "/avatar-4.png",
+    "authorBio": "Growth marketers and viral content producers who have generated over 50M organic impressions for digital products.",
+    "rating": 4.85,
+    "level": "Beginner",
+    "price": 27,
+    "currency": "$",
+    "billing": "lifetime",
+    "image": "/course-12.png",
+    "category": "Social Media",
+    "lessons": "23 Lessons",
+    "lessonsCount": 23,
+    "duration": "3 hours 10 mins",
+    "comments": "112 Comments",
+    "commentsCount": 112,
+    "description": "Build an authentic, high-converting organic audience on social channels and turn followers into passionate customers.",
+    "overview": "Social media marketing doesn't require dancing on video or spamming hashtags. Learn systematic content frameworks: hook copywriting, visual storytelling assets, repurposing pipelines, and conversion mechanics that drive qualified traffic directly to your digital products.",
+    "whatYouWillLearn": [
+      "Master high-engagement visual hook design for LinkedIn, X, and Instagram",
+      "Build a 1-to-many content repurposing engine that saves 15+ hours weekly",
+      "Design persuasive carousel graphics and short-form video storyboards",
+      "Direct social audience traffic into email newsletters and paying courses"
+    ],
+    "syllabus": [
+      {
+        "sectionTitle": "Section 1: Audience Research & Content Strategy",
+        "lessons": [
+          {
+            "number": "01",
+            "title": "The Anatomy of Viral Creative Posts",
+            "duration": "16 mins",
+            "preview": true
+          },
+          {
+            "number": "02",
+            "title": "Hook Writing: The First 3 Seconds Rule",
+            "duration": "22 mins",
+            "preview": false
+          },
+          {
+            "number": "03",
+            "title": "Designing High-Save Carousel Graphics",
+            "duration": "20 mins",
+            "preview": false
+          }
+        ]
+      },
+      {
+        "sectionTitle": "Section 2: Conversion Funnels & Automation",
+        "lessons": [
+          {
+            "number": "04",
+            "title": "Social-to-Email Funnel Architecture",
+            "duration": "24 mins",
+            "preview": true
+          },
+          {
+            "number": "05",
+            "title": "Analyzing Growth Metrics & Doubling Down",
+            "duration": "21 mins",
+            "preview": false
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "id": 1,
+        "user": "Emma Watson",
+        "rating": 5,
+        "comment": "Grew my design studio account from 800 to 14,000 followers in under 4 months.",
+        "date": "5 days ago"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "slug": "enterprise-design-systems-tokens",
+    "title": "Enterprise Design Systems & Tokens",
+    "author": "Atomic Systems Lab",
+    "authorId": "atomic-systems-lab",
+    "authorAvatar": "/avatar-5.png",
+    "authorBio": "Design token pioneers and design engineering leaders shaping systems for top SaaS platforms.",
+    "rating": 4.95,
+    "level": "Advanced",
+    "price": 49,
+    "currency": "$",
+    "billing": "lifetime",
+    "image": "/course-13.png",
+    "category": "UI/UX Design",
+    "lessons": "28 Lessons",
+    "lessonsCount": 28,
+    "duration": "4 hours 45 mins",
+    "comments": "140 Comments",
+    "commentsCount": 140,
+    "description": "Standardize design tokens, multi-brand themes, governance, and Figma-to-code pipelines for large-scale engineering teams.",
+    "overview": "Bridge the gap between design and production engineering. Master design token hierarchies (global, semantic, component), automated token sync via GitHub Actions, documentation guidelines in Storybook, and deprecation governance in multi-brand ecosystems.",
+    "whatYouWillLearn": [
+      "Architect 3-tier design token architectures in Figma Variables and JSON",
+      "Automate token transformation for CSS variables, Tailwind, and iOS Swift",
+      "Establish contribution workflows, versioning, and deprecation protocols",
+      "Document components with comprehensive accessibility and state matrices"
+    ],
+    "syllabus": [
+      {
+        "sectionTitle": "Section 1: Token Architecture & Semantic Variables",
+        "lessons": [
+          {
+            "number": "01",
+            "title": "Design Tokens: Primitive vs Semantic vs Scoped",
+            "duration": "20 mins",
+            "preview": true
+          },
+          {
+            "number": "02",
+            "title": "Figma Variables Multi-Mode Setup for Dark/High-Contrast",
+            "duration": "26 mins",
+            "preview": false
+          },
+          {
+            "number": "03",
+            "title": "Typography, Spacing & Elevation Tokens",
+            "duration": "22 mins",
+            "preview": false
+          }
+        ]
+      },
+      {
+        "sectionTitle": "Section 2: Code Automation & Governance",
+        "lessons": [
+          {
+            "number": "04",
+            "title": "Automated Token Sync with Style Dictionary & GitHub",
+            "duration": "32 mins",
+            "preview": true
+          },
+          {
+            "number": "05",
+            "title": "System Adoption Metrics & Enterprise Governance",
+            "duration": "28 mins",
+            "preview": false
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "id": 1,
+        "user": "Carlos Rivera",
+        "rating": 5,
+        "comment": "Finally connected our Figma libraries directly to our React repository with automated PRs.",
+        "date": "3 days ago"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "slug": "3d-vector-art-spatial-character-design",
+    "title": "3D Vector Art & Spatial Characters",
+    "author": "ClayCraft 3D",
+    "authorId": "claycraft-3d",
+    "authorAvatar": "/avatar-6.png",
+    "authorBio": "Digital toy designer, 3D character artist, and Blender community educator renowned for cute playful styles.",
+    "rating": 4.85,
+    "level": "Intermediate",
+    "price": 36,
+    "currency": "$",
+    "billing": "lifetime",
+    "image": "/course-14.png",
+    "category": "Drawing & Painting",
+    "lessons": "25 Lessons",
+    "lessonsCount": 25,
+    "duration": "3 hours 50 mins",
+    "comments": "97 Comments",
+    "commentsCount": 97,
+    "description": "Create charming clay-style 3D characters, playful isometric icons, and floating spatial UI elements in Blender.",
+    "overview": "Bring warmth and tactile playfulness into digital products. Learn clay shader nodes, soft studio lighting setups, basic character rigging for expressive poses, and exporting lightweight GLTF/Spline models for interactive web integration.",
+    "whatYouWillLearn": [
+      "Model charming stylized characters using basic primitives and modifier stacks",
+      "Create procedural tactile clay and frosted glass material shaders in Blender",
+      "Pose and light characters with warm studio rim lights and soft shadows",
+      "Export optimized 3D assets for Spline and WebGL web experiences"
+    ],
+    "syllabus": [
+      {
+        "sectionTitle": "Section 1: Modeling & Stylized Geometry",
+        "lessons": [
+          {
+            "number": "01",
+            "title": "Blender Interface & Clay Sculpting Basics",
+            "duration": "18 mins",
+            "preview": true
+          },
+          {
+            "number": "02",
+            "title": "Character Silhouettes & Playful Proportions",
+            "duration": "25 mins",
+            "preview": false
+          },
+          {
+            "number": "03",
+            "title": "Modeling Spatial UI Icons & Floating Assets",
+            "duration": "22 mins",
+            "preview": false
+          }
+        ]
+      },
+      {
+        "sectionTitle": "Section 2: Procedural Materials & Rendering",
+        "lessons": [
+          {
+            "number": "04",
+            "title": "Building Tactile Clay & Fingerprint Shaders",
+            "duration": "28 mins",
+            "preview": true
+          },
+          {
+            "number": "05",
+            "title": "Three-Point Studio Lighting & Cycles Camera Renders",
+            "duration": "26 mins",
+            "preview": false
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "id": 1,
+        "user": "Chloe Martin",
+        "rating": 5,
+        "comment": "I made 5 adorable 3D characters for my mobile app on the first weekend!",
+        "date": "1 week ago"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "slug": "saas-product-strategy-conversion-funnels",
+    "title": "SaaS Product Strategy & Funnels",
+    "author": "FluxFlow Growth",
+    "authorId": "fluxflow-growth",
+    "authorAvatar": "/avatar-1.png",
+    "authorBio": "Product-led growth advisors helping software companies optimize trial-to-paid funnels and user onboarding.",
+    "rating": 4.8,
+    "level": "Intermediate",
+    "price": 38,
+    "currency": "$",
+    "billing": "lifetime",
+    "image": "/course-15.png",
+    "category": "Marketing",
+    "lessons": "21 Lessons",
+    "lessonsCount": 21,
+    "duration": "3 hours 25 mins",
+    "comments": "79 Comments",
+    "commentsCount": 79,
+    "description": "Architect high-converting SaaS onboarding journeys, optimize pricing matrices, and reduce customer churn.",
+    "overview": "Discover why some software apps achieve 12% trial conversion while others struggle at 1%. Master product-led growth frameworks: activation milestones, frictionless signup flows, self-serve upgrades, and retention loops that compound ARR over time.",
+    "whatYouWillLearn": [
+      "Map out user activation journeys and identify drop-off bottlenecks",
+      "Design high-performing pricing tables with annual billing incentives",
+      "Implement interactive product walkthroughs that deliver immediate aha-moments",
+      "Build behavioral email triggers that resurrect dormant signups"
+    ],
+    "syllabus": [
+      {
+        "sectionTitle": "Section 1: The Activation Journey & Aha Moments",
+        "lessons": [
+          {
+            "number": "01",
+            "title": "Defining User Activation Milestones",
+            "duration": "19 mins",
+            "preview": true
+          },
+          {
+            "number": "02",
+            "title": "Eliminating Friction in Self-Serve Signups",
+            "duration": "24 mins",
+            "preview": false
+          },
+          {
+            "number": "03",
+            "title": "Designing Effective In-App Onboarding Checklists",
+            "duration": "21 mins",
+            "preview": false
+          }
+        ]
+      },
+      {
+        "sectionTitle": "Section 2: Pricing Strategy & Retention Loops",
+        "lessons": [
+          {
+            "number": "04",
+            "title": "Pricing Psychology & Packaging Tiers",
+            "duration": "27 mins",
+            "preview": true
+          },
+          {
+            "number": "05",
+            "title": "Churn Prevention & Cancellation Recovery Flows",
+            "duration": "25 mins",
+            "preview": false
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "id": 1,
+        "user": "Kevin Zhang",
+        "rating": 5,
+        "comment": "Revamped our SaaS onboarding following Lesson 2 and our conversion rate jumped from 3.2% to 6.8%.",
+        "date": "4 days ago"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "slug": "kinetic-typography-motion-graphics",
+    "title": "Kinetic Typography & Motion Graphics",
+    "author": "FluidMotion Studio",
+    "authorId": "fluidmotion-studio",
+    "authorAvatar": "/avatar-2.png",
+    "authorBio": "Creative animation studio producing kinetic typography campaigns for Spotify, Nike, and leading design conferences.",
+    "rating": 4.9,
+    "level": "Intermediate",
+    "price": 42,
+    "currency": "$",
+    "billing": "lifetime",
+    "image": "/course-16.png",
+    "category": "Animation",
+    "lessons": "27 Lessons",
+    "lessonsCount": 27,
+    "duration": "4 hours 10 mins",
+    "comments": "119 Comments",
+    "commentsCount": 119,
+    "description": "Bring words to life with kinetic typography, expressive rhythm, sound sync, and liquid motion graphics in After Effects.",
+    "overview": "Words convey information, but animated typography conveys raw emotion. Learn velocity graphs, kinetic text distortion, audio-waveform synchronization, displacement maps, and exporting lightweight Lottie animations for mobile apps and web.",
+    "whatYouWillLearn": [
+      "Master the After Effects graph editor for expressive easing curves",
+      "Choreograph kinetic text animations synchronized precisely to musical beats",
+      "Generate liquid fluorescent splash effects and particle typography shaders",
+      "Export high-fidelity JSON Lottie animations for instant web integration"
+    ],
+    "syllabus": [
+      {
+        "sectionTitle": "Section 1: Rhythm, Curves & Typography Dynamics",
+        "lessons": [
+          {
+            "number": "01",
+            "title": "The Rhythm of Animated Words",
+            "duration": "18 mins",
+            "preview": true
+          },
+          {
+            "number": "02",
+            "title": "Graph Editor Precision: Snappy vs Float Curves",
+            "duration": "26 mins",
+            "preview": false
+          },
+          {
+            "number": "03",
+            "title": "Text Animators: Tracking, Skew & Range Selectors",
+            "duration": "24 mins",
+            "preview": false
+          }
+        ]
+      },
+      {
+        "sectionTitle": "Section 2: Liquid Effects & Web Hand-off",
+        "lessons": [
+          {
+            "number": "04",
+            "title": "Displacement Mapping & Liquid Neon Glows",
+            "duration": "28 mins",
+            "preview": true
+          },
+          {
+            "number": "05",
+            "title": "Exporting Lightweight Lottie & dotLottie Files",
+            "duration": "25 mins",
+            "preview": false
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "id": 1,
+        "user": "Nathan Drake",
+        "rating": 5,
+        "comment": "The speed graph explanations blew my mind. My animations look 10x more polished now!",
+        "date": "2 days ago"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "slug": "swiss-typography-modern-brand-identity",
+    "title": "Swiss Typography & Brand Identity",
+    "author": "Studio Löwen Zurich",
+    "authorId": "studio-lowen",
+    "authorAvatar": "/avatar-3.png",
+    "authorBio": "Heritage Swiss design bureau dedicated to grid-based visual systems, timeless typography, and modern minimalism.",
+    "rating": 4.8,
+    "level": "All Levels",
+    "price": 30,
+    "currency": "$",
+    "billing": "lifetime",
+    "image": "/course-17.png",
+    "category": "Graphic Design",
+    "lessons": "18 Lessons",
+    "lessonsCount": 18,
+    "duration": "2 hours 35 mins",
+    "comments": "65 Comments",
+    "commentsCount": 65,
+    "description": "Master the timeless principles of Swiss International Typographic Style, modular grids, and modern corporate identity.",
+    "overview": "Explore the philosophy and craft behind century-tested visual communication. Learn baseline grids, proportional type scales, asymmetrical balance, negative space mastery, and translating print heritage into razor-sharp digital brand identity systems.",
+    "whatYouWillLearn": [
+      "Master modular column and baseline grid systems for print and digital media",
+      "Pair modern grotesque sans-serifs and contemporary editorial serifs with perfection",
+      "Harness the power of intentional white space and visual tension",
+      "Create comprehensive brand identity manuals and guidelines for global clients"
+    ],
+    "syllabus": [
+      {
+        "sectionTitle": "Section 1: The Swiss Philosophy & Modular Grids",
+        "lessons": [
+          {
+            "number": "01",
+            "title": "History and Legacy of the International Style",
+            "duration": "16 mins",
+            "preview": true
+          },
+          {
+            "number": "02",
+            "title": "Constructing Multi-Column & Baseline Grids",
+            "duration": "23 mins",
+            "preview": false
+          },
+          {
+            "number": "03",
+            "title": "The Golden Ratio in Typographic Scale",
+            "duration": "19 mins",
+            "preview": false
+          }
+        ]
+      },
+      {
+        "sectionTitle": "Section 2: Brand Identity Manuals",
+        "lessons": [
+          {
+            "number": "04",
+            "title": "Stationery, Signage & Digital Brand Artifacts",
+            "duration": "25 mins",
+            "preview": true
+          },
+          {
+            "number": "05",
+            "title": "Delivering the Comprehensive Identity Book",
+            "duration": "22 mins",
+            "preview": false
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "id": 1,
+        "user": "Hannah Schmidt",
+        "rating": 5,
+        "comment": "A masterclass in restraint and timeless visual hierarchy. Essential for every designer.",
+        "date": "1 week ago"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "slug": "mobile-app-prototyping-ios-gestures",
+    "title": "Mobile App Prototyping & iOS Gestures",
+    "author": "Aether UI Lab",
+    "authorId": "aether-ui-lab",
+    "authorAvatar": "/avatar-4.png",
+    "authorBio": "Human interface designers and iOS prototyping specialists behind multiple App Store Best of the Year winners.",
+    "rating": 4.95,
+    "level": "Advanced",
+    "price": 48,
+    "currency": "$",
+    "billing": "lifetime",
+    "image": "/course-18.png",
+    "category": "UI/UX Design",
+    "lessons": "29 Lessons",
+    "lessonsCount": 29,
+    "duration": "4 hours 55 mins",
+    "comments": "148 Comments",
+    "commentsCount": 148,
+    "description": "Prototype tactile iOS mobile experiences with gesture navigation, fluid sheet transitions, and haptic feedback simulation.",
+    "overview": "Go far beyond standard screen-to-screen click-throughs. Learn to build advanced gesture-driven prototypes: velocity-aware bottom sheets, pull-to-refresh animations, interactive slider physics, Dynamic Island micro-widgets, and user testing workflows.",
+    "whatYouWillLearn": [
+      "Build gesture-driven bottom sheets with velocity clamping and bounce physics",
+      "Design Dynamic Island expanded and compact states with fluid transitions",
+      "Incorporate realistic haptic feedback cues and audio micro-taps into prototypes",
+      "Run remote interactive prototype user testing sessions and capture real usability data"
+    ],
+    "syllabus": [
+      {
+        "sectionTitle": "Section 1: iOS Gesture Frameworks & Touch Targets",
+        "lessons": [
+          {
+            "number": "01",
+            "title": "Apple Human Interface Guidelines for Gestures",
+            "duration": "20 mins",
+            "preview": true
+          },
+          {
+            "number": "02",
+            "title": "Velocity Clamping & Rubber-Band Drag Physics",
+            "duration": "28 mins",
+            "preview": false
+          },
+          {
+            "number": "03",
+            "title": "Interactive Sheet Dismissals & Stack Transitions",
+            "duration": "25 mins",
+            "preview": false
+          }
+        ]
+      },
+      {
+        "sectionTitle": "Section 2: Dynamic Island & Spatial Interactions",
+        "lessons": [
+          {
+            "number": "04",
+            "title": "Dynamic Island Morphing States & Prototyping",
+            "duration": "32 mins",
+            "preview": true
+          },
+          {
+            "number": "05",
+            "title": "Device Handoff & Real-Phone Testing Workflows",
+            "duration": "27 mins",
+            "preview": false
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "id": 1,
+        "user": "Benjamin Taylor",
+        "rating": 5,
+        "comment": "Our developers were able to implement the prototype exactly as designed without any guesswork.",
+        "date": "3 days ago"
+      }
+    ]
+  },
+  {
+    "id": 19,
+    "slug": "music-production-sound-design",
+    "title": "Music Production & Sound Design",
+    "author": "EchoWave Audio Lab",
+    "authorId": "echowave-audio",
+    "authorAvatar": "/avatar-1.png",
+    "authorBio": "Electronic music producer and audio engineer with over 10 years experience producing chart-topping tracks.",
+    "rating": 4.9,
+    "level": "All Levels",
+    "price": 35,
+    "currency": "$",
+    "billing": "lifetime",
+    "image": "/course-4.png",
+    "category": "Music",
+    "lessons": "22 Lessons",
+    "lessonsCount": 22,
+    "duration": "3 hours 20 mins",
+    "comments": "84 Comments",
+    "commentsCount": 84,
+    "description": "Master digital audio workstations, chord theory, vocal mixing, synthesis, and release-ready mastering.",
+    "overview": "Dive into the art and science of modern music production. Learn chord theory, drum sequencing, synthesizer sound design, EQ, compression, and professional audio mixing workflows.",
+    "youtubeVideoId": "rgaTLrZGlk0",
+    "whatYouWillLearn": [
+      "Master modern DAW workflows, MIDI routing, and audio interfaces",
+      "Build captivating chord progressions and infectious melodies",
+      "Sculpt custom synthesizer patches with subtractive and FM synthesis",
+      "Mix and master full tracks for Spotify and Apple Music distribution"
+    ],
+    "syllabus": [
+      {
+        "sectionTitle": "Section 1: Music Theory & Rhythm Architecture",
+        "lessons": [
+          {
+            "number": "01",
+            "title": "Modern Chord Progressions & Harmonies",
+            "duration": "18 mins",
+            "preview": true
+          },
+          {
+            "number": "02",
+            "title": "Drum Programming & Groove Velocity",
+            "duration": "24 mins",
+            "preview": false
+          }
+        ]
+      },
+      {
+        "sectionTitle": "Section 2: Mixing & Spatial Audio",
+        "lessons": [
+          {
+            "number": "03",
+            "title": "Surgical EQ & Dynamic Multiband Compression",
+            "duration": "26 mins",
+            "preview": true
+          },
+          {
+            "number": "04",
+            "title": "Final Mastering Chains for Streaming Loudness",
+            "duration": "22 mins",
+            "preview": false
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "id": 1,
+        "user": "Marcus Bell",
+        "rating": 5,
+        "comment": "The music theory section blew my mind. Made my first track in 48 hours!",
+        "date": "2 days ago"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "slug": "creative-brand-marketing-viral-campaigns",
+    "title": "Creative Brand Marketing & Campaigns",
+    "author": "Vanguard Creative",
+    "authorId": "vanguard-creative",
+    "authorAvatar": "/avatar-2.png",
+    "authorBio": "Award-winning creative strategists behind memorable consumer campaigns and viral product launches.",
+    "rating": 4.85,
+    "level": "Intermediate",
+    "price": 32,
+    "currency": "$",
+    "billing": "lifetime",
+    "image": "/course-5.png",
+    "category": "Creative Marketing",
+    "lessons": "20 Lessons",
+    "lessonsCount": 20,
+    "duration": "2 hours 55 mins",
+    "comments": "76 Comments",
+    "commentsCount": 76,
+    "description": "Craft unforgettable brand narratives, launch viral organic activations, and build high-affinity communities.",
+    "overview": "Learn how top consumer brands break through the noise. Explore distinctive brand assets, culture jacking, emotional hooks, and positioning strategies that generate earned media.",
+    "youtubeVideoId": "u4ZoJKF_VuA",
+    "whatYouWillLearn": [
+      "Define distinctive brand archetypes and strategic positioning",
+      "Engineer organic viral loops and guerilla marketing activations",
+      "Build high-retention community ambassadors and advocates",
+      "Measure brand equity and earned media value accurately"
+    ],
+    "syllabus": [
+      {
+        "sectionTitle": "Section 1: Brand Essence & Unorthodox Positioning",
+        "lessons": [
+          {
+            "number": "01",
+            "title": "The Golden Circle of Brand Identity",
+            "duration": "16 mins",
+            "preview": true
+          },
+          {
+            "number": "02",
+            "title": "Identifying Cultural White Space",
+            "duration": "22 mins",
+            "preview": false
+          }
+        ]
+      },
+      {
+        "sectionTitle": "Section 2: Viral Mechanics & Earned Media",
+        "lessons": [
+          {
+            "number": "03",
+            "title": "Designing Shareable Brand Moments",
+            "duration": "25 mins",
+            "preview": true
+          },
+          {
+            "number": "04",
+            "title": "Amplifying PR Stunts with Digital Retargeting",
+            "duration": "21 mins",
+            "preview": false
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "id": 1,
+        "user": "Chloe Bennett",
+        "rating": 5,
+        "comment": "Changed how our whole agency thinks about creative marketing campaigns.",
+        "date": "4 days ago"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "slug": "cinematography-film-video-production",
+    "title": "Cinematography & Video Production",
+    "author": "CineCraft Studio",
+    "authorId": "cinecraft-studio",
+    "authorAvatar": "/avatar-3.png",
+    "authorBio": "Indie filmmaker and commercial director with credits on Netflix documentaries and global brand commercials.",
+    "rating": 4.95,
+    "level": "Intermediate",
+    "price": 42,
+    "currency": "$",
+    "billing": "lifetime",
+    "image": "/course-7.png",
+    "category": "Film & Video",
+    "lessons": "25 Lessons",
+    "lessonsCount": 25,
+    "duration": "4 hours 15 mins",
+    "comments": "128 Comments",
+    "commentsCount": 128,
+    "description": "Master camera movement, 3-point cinematic lighting, storyboarding, and color grading in DaVinci Resolve.",
+    "overview": "Take your video projects from amateur to cinematic perfection. Discover camera sensor physics, focal length storytelling, negative fill lighting, motivated camera movements, and film emulation.",
+    "youtubeVideoId": "8rAe8RuICYM",
+    "whatYouWillLearn": [
+      "Master manual exposure, shutter angles, and cinematic focal lengths",
+      "Design atmospheric 3-point lighting setups on any budget",
+      "Direct fluid camera movements using gimbals, sliders, and handheld rigs",
+      "Grade professional log footage with custom tone curves and film LUTs"
+    ],
+    "syllabus": [
+      {
+        "sectionTitle": "Section 1: Visual Language & Camera Control",
+        "lessons": [
+          {
+            "number": "01",
+            "title": "The Emotional Impact of Focal Lengths",
+            "duration": "19 mins",
+            "preview": true
+          },
+          {
+            "number": "02",
+            "title": "Motivated Camera Motion & Blocking",
+            "duration": "27 mins",
+            "preview": false
+          }
+        ]
+      },
+      {
+        "sectionTitle": "Section 2: Lighting & Color Grading",
+        "lessons": [
+          {
+            "number": "03",
+            "title": "Sculpting Faces with Key, Fill & Rim Lights",
+            "duration": "24 mins",
+            "preview": true
+          },
+          {
+            "number": "04",
+            "title": "Color Grading Log Footage in DaVinci Resolve",
+            "duration": "30 mins",
+            "preview": false
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "id": 1,
+        "user": "David Sterling",
+        "rating": 5,
+        "comment": "The cinematography tips instantly elevated my commercial reels.",
+        "date": "1 week ago"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "slug": "handcrafted-ceramics-pottery-clay",
+    "title": "Handcrafted Ceramics & Clay Design",
+    "author": "Terra & Wheel Studio",
+    "authorId": "terra-wheel",
+    "authorAvatar": "/avatar-4.png",
+    "authorBio": "Master ceramicist and sculptor exhibiting handcrafted clay collections across international galleries.",
+    "rating": 4.8,
+    "level": "Beginner",
+    "price": 28,
+    "currency": "$",
+    "billing": "lifetime",
+    "image": "/course-8.png",
+    "category": "Crafts",
+    "lessons": "18 Lessons",
+    "lessonsCount": 18,
+    "duration": "2 hours 45 mins",
+    "comments": "64 Comments",
+    "commentsCount": 64,
+    "description": "Learn clay preparation, wheel centering, slab building, underglaze decoration, and kiln firing techniques.",
+    "overview": "Experience the therapeutic and creative craft of pottery. From wedge-centering on the wheel to carving organic textures, this beginner-friendly course teaches traditional and modern clay crafting.",
+    "youtubeVideoId": "41bEeL8rVs4",
+    "whatYouWillLearn": [
+      "Wedge, center, and pull balanced clay cylinders on the pottery wheel",
+      "Construct architectural ceramic vessels using slab and coil methods",
+      "Mix custom ceramic glazes and paint expressive botanical underglazes",
+      "Safely bisque and glaze fire finished stoneware pieces"
+    ],
+    "syllabus": [
+      {
+        "sectionTitle": "Section 1: Clay Chemistry & Wheel Centering",
+        "lessons": [
+          {
+            "number": "01",
+            "title": "Understanding Clay Bodies & Moisture Stages",
+            "duration": "15 mins",
+            "preview": true
+          },
+          {
+            "number": "02",
+            "title": "The Physics of Wheel Centering",
+            "duration": "24 mins",
+            "preview": false
+          }
+        ]
+      },
+      {
+        "sectionTitle": "Section 2: Glazing & Surface Design",
+        "lessons": [
+          {
+            "number": "03",
+            "title": "Carving Textures & Leather-Hard Trimming",
+            "duration": "20 mins",
+            "preview": true
+          },
+          {
+            "number": "04",
+            "title": "Dipping, Pouring & Glaze Chemistry",
+            "duration": "22 mins",
+            "preview": false
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "id": 1,
+        "user": "Emily Rivera",
+        "rating": 5,
+        "comment": "So calming and informative. Made my first complete ceramic set!",
+        "date": "3 days ago"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "slug": "mastering-commercial-photography",
+    "title": "Commercial & Portrait Photography",
+    "author": "Lumen Photography Lab",
+    "authorId": "lumen-photo",
+    "authorAvatar": "/avatar-5.png",
+    "authorBio": "Editorial photographer featured in Vogue, Architectural Digest, and commercial agency campaigns.",
+    "rating": 4.9,
+    "level": "All Levels",
+    "price": 36,
+    "currency": "$",
+    "billing": "lifetime",
+    "image": "/course-2.png",
+    "category": "Photography",
+    "lessons": "21 Lessons",
+    "lessonsCount": 21,
+    "duration": "3 hours 35 mins",
+    "comments": "92 Comments",
+    "commentsCount": 92,
+    "description": "Master camera exposure, ambient flash balance, studio strobe modifiers, and portrait retouching in Lightroom.",
+    "overview": "Capture striking, editorial-grade portraits and commercial product photos. Learn the exposure triangle, off-camera flash lighting, model posing communication, and color grading workflows in Lightroom and Photoshop.",
+    "youtubeVideoId": "7ZVyNjKSr0M",
+    "whatYouWillLearn": [
+      "Master manual exposure, dynamic range, and prime lens optics",
+      "Control studio strobes with softboxes, beauty dishes, and scrims",
+      "Direct natural poses and authentic expressions on portrait shoots",
+      "Retouch skin and grade colors professionally in Adobe Lightroom"
+    ],
+    "syllabus": [
+      {
+        "sectionTitle": "Section 1: Exposure Triangle & Natural Light",
+        "lessons": [
+          {
+            "number": "01",
+            "title": "Aperture, Shutter & ISO in Action",
+            "duration": "18 mins",
+            "preview": true
+          },
+          {
+            "number": "02",
+            "title": "Working with Golden Hour & Harsh Sunlight",
+            "duration": "23 mins",
+            "preview": false
+          }
+        ]
+      },
+      {
+        "sectionTitle": "Section 2: Studio Lighting & Commercial Retouching",
+        "lessons": [
+          {
+            "number": "03",
+            "title": "Softbox Modifiers & Rim Light Separation",
+            "duration": "28 mins",
+            "preview": true
+          },
+          {
+            "number": "04",
+            "title": "High-End Frequency Separation Retouching",
+            "duration": "25 mins",
+            "preview": false
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "id": 1,
+        "user": "Jason Thorne",
+        "rating": 5,
+        "comment": "Steve McCurry's composition rules and lighting breakdowns are pure gold.",
+        "date": "5 days ago"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "slug": "artisan-culinary-gastronomy-cooking",
+    "title": "Artisan Culinary & Modern Cooking",
+    "author": "Chef Olivier Gastronomie",
+    "authorId": "chef-olivier",
+    "authorAvatar": "/avatar-6.png",
+    "authorBio": "Michelin-trained executive chef sharing fine dining techniques adapted for everyday home kitchens.",
+    "rating": 4.92,
+    "level": "Beginner",
+    "price": 34,
+    "currency": "$",
+    "billing": "lifetime",
+    "image": "/course-3.png",
+    "category": "Cooking",
+    "lessons": "19 Lessons",
+    "lessonsCount": 19,
+    "duration": "3 hours 10 mins",
+    "comments": "115 Comments",
+    "commentsCount": 115,
+    "description": "Transform home cooking with professional knife skills, flavor layering, sauce emulsions, and plating aesthetics.",
+    "overview": "Cook like a professional chef without the culinary school tuition. Learn the fundamentals of heat control, maillard browning, mother sauces, acid-salt balancing, and restaurant plating presentation.",
+    "youtubeVideoId": "dCGS067s0zo",
+    "whatYouWillLearn": [
+      "Master French chef knife cuts (julienne, brunoise, chiffonade)",
+      "Build complex flavor bases with mirepoix, stocks, and reductions",
+      "Execute foolproof pan-searing, braising, and sauce emulsions",
+      "Plate dishes with color harmony, height, and textural contrast"
+    ],
+    "syllabus": [
+      {
+        "sectionTitle": "Section 1: Knife Mastery & Kitchen Fundamentals",
+        "lessons": [
+          {
+            "number": "01",
+            "title": "Knife Sharpening & Precision Cuts",
+            "duration": "16 mins",
+            "preview": true
+          },
+          {
+            "number": "02",
+            "title": "The Science of Salt, Acid, Fat & Heat",
+            "duration": "24 mins",
+            "preview": false
+          }
+        ]
+      },
+      {
+        "sectionTitle": "Section 2: Pan Sauces & Restaurant Plating",
+        "lessons": [
+          {
+            "number": "03",
+            "title": "Velvety Reductions & Pan-Sauce Emulsions",
+            "duration": "22 mins",
+            "preview": true
+          },
+          {
+            "number": "04",
+            "title": "Fine Dining Plating Architecture",
+            "duration": "26 mins",
+            "preview": false
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "id": 1,
+        "user": "Sophie Martin",
+        "rating": 5,
+        "comment": "My family thinks I went to culinary school in Paris. Amazing course!",
+        "date": "2 days ago"
+      }
+    ]
+  }
+]
