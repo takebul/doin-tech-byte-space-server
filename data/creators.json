@@ -1,0 +1,20 @@
+[
+  {
+    "id": "purepearl-studio",
+    "slug": "purepearl-studio",
+    "name": "PurePearl Studio",
+    "badge": "Creator",
+    "subtitle": "Passionate UI/UX, Web designer",
+    "avatar": "/creator-avatar-large.png",
+    "bio": [
+      "Welcome to the creative world of PurePearl Studio. Here, you'll discover the passion, expertise, and inspiration that drive my creative journey. Let's explore and learn together!",
+      "Dive into my creative portfolio, showcasing a glimpse of my artistic endeavors. From digital designs to multimedia projects, each piece tells a unique story. Explore the world of creativity with me."
+    ],
+    "productsCount": 6,
+    "followerCount": 12,
+    "rating": 4.8,
+    "coursesCount": 6,
+    "skills": ["UI/UX Design", "Figma", "Digital Illustration", "Motion Design", "Design Systems"],
+    "featuredCourseIds": [1, 2, 3, 4, 5, 6]
+  }
+]
