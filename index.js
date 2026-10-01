@@ -46,6 +46,7 @@ const usersCollection = db.collection("user");
 const coursesCollection = db.collection("courses");
 const creatorsCollection = db.collection("creators");
 const categoriesCollection = db.collection("categories");
+const enrollmentsCollection = db.collection("enrollments");
 
 // Health check endpoint
 app.get("/", (req, res) => {
@@ -59,6 +60,7 @@ app.get("/", (req, res) => {
       "/api/creators",
       "/api/creators/:id",
       "/api/categories",
+      "/api/enrollments",
       "/api/seed",
     ],
   });
@@ -520,6 +522,260 @@ app.post("/api/seed", async (req, res) => {
         message: "Error seeding database",
         error: error.message,
       });
+  }
+});
+
+// 7. POST /api/enrollments - Enroll current user in a course
+app.post("/api/enrollments", async (req, res) => {
+  try {
+    const {
+      userId,
+      userEmail,
+      userName,
+      courseId,
+      courseTitle,
+      courseSlug,
+      courseImage,
+      courseAuthor,
+      coursePrice,
+      category,
+    } = req.body;
+
+    if (!userEmail && !userId) {
+      return res.status(400).json({
+        success: false,
+        message: "User identifier (userEmail or userId) is required to enroll.",
+      });
+    }
+
+    if (!courseId) {
+      return res.status(400).json({
+        success: false,
+        message: "Course ID is required to enroll.",
+      });
+    }
+
+    const normalizedEmail = (userEmail || "").toLowerCase().trim();
+    const parsedCourseId = Number(courseId) || courseId;
+
+    // Check if user is already enrolled
+    const filter = {
+      $and: [
+        {
+          $or: [
+            ...(normalizedEmail ? [{ userEmail: normalizedEmail }] : []),
+            ...(userId ? [{ userId: String(userId) }] : []),
+          ],
+        },
+        {
+          $or: [
+            { courseId: parsedCourseId },
+            { courseId: String(courseId) },
+            ...(courseSlug ? [{ courseSlug: courseSlug }] : []),
+          ],
+        },
+      ],
+    };
+
+    let existing = null;
+    try {
+      existing = await enrollmentsCollection.findOne(filter);
+    } catch (dbErr) {
+      console.warn("DB enroll check failed, checking fallback:", dbErr.message);
+    }
+
+    if (existing) {
+      return res.json({
+        success: true,
+        alreadyEnrolled: true,
+        message: "You are already enrolled in this course.",
+        enrollment: existing,
+      });
+    }
+
+    const newEnrollment = {
+      id: `enr_${Date.now()}_${Math.random().toString(36).substring(2, 7)}`,
+      userId: userId ? String(userId) : "user",
+      userEmail: normalizedEmail,
+      userName: userName || "User",
+      courseId: parsedCourseId,
+      courseTitle: courseTitle || "Enrolled Course",
+      courseSlug: courseSlug || `course-${courseId}`,
+      courseImage: courseImage || "/course-1.png",
+      courseAuthor: courseAuthor || "ByteSpace Instructor",
+      coursePrice: coursePrice || 0,
+      category: category || "General",
+      progress: 0,
+      status: "In Progress",
+      enrolledAt: new Date().toISOString(),
+    };
+
+    try {
+      await enrollmentsCollection.insertOne(newEnrollment);
+    } catch (insertErr) {
+      console.warn("DB enroll insert failed, writing to fallback:", insertErr.message);
+      const filePath = path.join(__dirname, "data", "enrollments.json");
+      let list = [];
+      if (fs.existsSync(filePath)) {
+        try {
+          list = JSON.parse(fs.readFileSync(filePath, "utf8")) || [];
+        } catch (_) {}
+      }
+      list.push(newEnrollment);
+      fs.writeFileSync(filePath, JSON.stringify(list, null, 2), "utf8");
+    }
+
+    res.status(201).json({
+      success: true,
+      alreadyEnrolled: false,
+      message: "Enrolled in course successfully!",
+      enrollment: newEnrollment,
+    });
+  } catch (error) {
+    console.error("Error creating enrollment:", error);
+    res.status(500).json({
+      success: false,
+      message: "Failed to enroll in course",
+      error: error.message,
+    });
+  }
+});
+
+// 8. GET /api/enrollments - List user enrollments
+app.get("/api/enrollments", async (req, res) => {
+  try {
+    const { userEmail, userId } = req.query;
+    const normalizedEmail = (userEmail || "").toLowerCase().trim();
+
+    const conditions = [];
+    if (normalizedEmail) {
+      conditions.push({ userEmail: normalizedEmail });
+    }
+    if (userId) {
+      conditions.push({ userId: String(userId) });
+    }
+
+    const filter = conditions.length > 0 ? { $or: conditions } : {};
+
+    try {
+      const enrollments = await enrollmentsCollection
+        .find(filter)
+        .sort({ enrolledAt: -1 })
+        .toArray();
+
+      return res.json({
+        success: true,
+        count: enrollments.length,
+        enrollments,
+      });
+    } catch (dbErr) {
+      console.warn("DB enrollments query failed, reading fallback:", dbErr.message);
+      const filePath = path.join(__dirname, "data", "enrollments.json");
+      let list = [];
+      if (fs.existsSync(filePath)) {
+        try {
+          list = JSON.parse(fs.readFileSync(filePath, "utf8")) || [];
+        } catch (_) {}
+      }
+      if (normalizedEmail || userId) {
+        list = list.filter(
+          (e) =>
+            (normalizedEmail && (e.userEmail || "").toLowerCase() === normalizedEmail) ||
+            (userId && String(e.userId) === String(userId))
+        );
+      }
+      list.sort((a, b) => new Date(b.enrolledAt) - new Date(a.enrolledAt));
+      return res.json({
+        success: true,
+        count: list.length,
+        enrollments: list,
+      });
+    }
+  } catch (error) {
+    console.error("Error fetching enrollments:", error);
+    res.status(500).json({
+      success: false,
+      message: "Failed to fetch enrollments",
+      error: error.message,
+    });
+  }
+});
+
+// 9. DELETE /api/enrollments/:id - Remove or unenroll from a course
+app.delete("/api/enrollments/:id", async (req, res) => {
+  try {
+    const { id } = req.params;
+    const { userEmail, userId, courseId } = req.query;
+
+    const conditions = [{ id: id }];
+
+    if (ObjectId.isValid(id)) {
+      conditions.push({ _id: new ObjectId(id) });
+    }
+
+    const numId = Number(id);
+    if (!isNaN(numId)) {
+      conditions.push({ courseId: numId });
+    }
+
+    if (courseId) {
+      conditions.push({ courseId: Number(courseId) || courseId });
+    }
+
+    let filter = { $or: conditions };
+
+    const normalizedEmail = (userEmail || "").toLowerCase().trim();
+    if (normalizedEmail || userId) {
+      const userConditions = [];
+      if (normalizedEmail) userConditions.push({ userEmail: normalizedEmail });
+      if (userId) userConditions.push({ userId: String(userId) });
+      filter = {
+        $and: [{ $or: conditions }, { $or: userConditions }],
+      };
+    }
+
+    let deletedCount = 0;
+    try {
+      const result = await enrollmentsCollection.deleteMany(filter);
+      deletedCount = result.deletedCount;
+    } catch (dbErr) {
+      console.warn("DB enroll delete failed, deleting from fallback:", dbErr.message);
+    }
+
+    const filePath = path.join(__dirname, "data", "enrollments.json");
+    if (fs.existsSync(filePath)) {
+      try {
+        let list = JSON.parse(fs.readFileSync(filePath, "utf8")) || [];
+        const originalLen = list.length;
+        list = list.filter((e) => {
+          const matchId =
+            e.id === id ||
+            String(e._id) === id ||
+            String(e.courseId) === id ||
+            (courseId && String(e.courseId) === String(courseId));
+          const matchUser =
+            !normalizedEmail || (e.userEmail || "").toLowerCase() === normalizedEmail;
+          return !(matchId && matchUser);
+        });
+        if (list.length < originalLen) {
+          deletedCount += originalLen - list.length;
+          fs.writeFileSync(filePath, JSON.stringify(list, null, 2), "utf8");
+        }
+      } catch (_) {}
+    }
+
+    res.json({
+      success: true,
+      message: "Enrolled course removed successfully.",
+      deletedCount,
+    });
+  } catch (error) {
+    console.error("Error deleting enrollment:", error);
+    res.status(500).json({
+      success: false,
+      message: "Failed to delete enrollment",
+      error: error.message,
+    });
   }
 });
 
