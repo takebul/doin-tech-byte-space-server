@@ -64,18 +64,18 @@ app.get("/", (req, res) => {
   });
 });
 
-// 1. GET /api/courses - List courses with optional filters (category, level, search, limit)
+// 1. GET /api/courses - List courses with optional filters (category, level, search, limit, page, sortBy)
 app.get("/api/courses", async (req, res) => {
   try {
-    const { category, level, search, limit } = req.query;
+    const { category, level, search, limit, page, sortBy } = req.query;
     const filter = {};
 
     if (category && category !== "Featured" && category !== "All") {
-      filter.category = category;
+      filter.category = { $regex: new RegExp(`^${category.trim()}$`, "i") };
     }
 
     if (level && level !== "All Level" && level !== "All") {
-      filter.level = level;
+      filter.level = { $regex: new RegExp(`^${level.trim()}$`, "i") };
     }
 
     if (search && search.trim()) {
@@ -88,10 +88,37 @@ app.get("/api/courses", async (req, res) => {
       ];
     }
 
-    let query = coursesCollection.find(filter).sort({ id: 1 });
+    let sortObj = { id: 1 };
+    if (sortBy === "Highest Rated") {
+      sortObj = { rating: -1, id: 1 };
+    } else if (sortBy === "Price: Low to High") {
+      sortObj = { price: 1, id: 1 };
+    } else if (sortBy === "Price: High to Low") {
+      sortObj = { price: -1, id: 1 };
+    }
 
-    if (limit && !isNaN(parseInt(limit, 10))) {
-      query = query.limit(parseInt(limit, 10));
+    const total = await coursesCollection.countDocuments(filter);
+    let query = coursesCollection.find(filter).sort(sortObj);
+
+    const pageNum = page ? Math.max(1, parseInt(page, 10) || 1) : null;
+    const limitNum = limit ? Math.max(1, parseInt(limit, 10) || 6) : null;
+
+    if (pageNum || limitNum) {
+      const p = pageNum || 1;
+      const l = limitNum || 6;
+      const skip = (p - 1) * l;
+      const totalPages = Math.ceil(total / l) || 1;
+      const courses = await query.skip(skip).limit(l).toArray();
+
+      return res.json({
+        success: true,
+        count: courses.length,
+        total,
+        page: p,
+        limit: l,
+        totalPages,
+        courses,
+      });
     }
 
     const courses = await query.toArray();
@@ -99,11 +126,84 @@ app.get("/api/courses", async (req, res) => {
     res.json({
       success: true,
       count: courses.length,
+      total: courses.length,
+      page: 1,
+      limit: courses.length,
+      totalPages: 1,
       courses,
     });
   } catch (error) {
-    console.error("Error fetching courses:", error);
-    res.status(500).json({ success: false, message: "Error fetching courses", error: error.message });
+    console.warn("MongoDB query failed, using local courses.json fallback:", error.message);
+    try {
+      const raw = fs.readFileSync(path.join(__dirname, "data", "courses.json"), "utf8");
+      let allCourses = JSON.parse(raw);
+      const { category, level, search, limit, page, sortBy } = req.query;
+
+      if (category && category !== "Featured" && category !== "All") {
+        allCourses = allCourses.filter(
+          (c) => (c.category || "").toLowerCase() === category.trim().toLowerCase()
+        );
+      }
+      if (level && level !== "All Level" && level !== "All") {
+        allCourses = allCourses.filter(
+          (c) => (c.level || "").toLowerCase() === level.trim().toLowerCase()
+        );
+      }
+      if (search && search.trim()) {
+        const s = search.trim().toLowerCase();
+        allCourses = allCourses.filter(
+          (c) =>
+            (c.title || "").toLowerCase().includes(s) ||
+            (c.author || "").toLowerCase().includes(s) ||
+            (c.category || "").toLowerCase().includes(s) ||
+            (c.description || "").toLowerCase().includes(s)
+        );
+      }
+
+      if (sortBy === "Highest Rated") {
+        allCourses.sort((a, b) => (b.rating || 0) - (a.rating || 0));
+      } else if (sortBy === "Price: Low to High") {
+        allCourses.sort((a, b) => (a.price || 0) - (b.price || 0));
+      } else if (sortBy === "Price: High to Low") {
+        allCourses.sort((a, b) => (b.price || 0) - (a.price || 0));
+      } else {
+        allCourses.sort((a, b) => (a.id || 0) - (b.id || 0));
+      }
+
+      const total = allCourses.length;
+      const pageNum = page ? Math.max(1, parseInt(page, 10) || 1) : null;
+      const limitNum = limit ? Math.max(1, parseInt(limit, 10) || 6) : null;
+
+      if (pageNum || limitNum) {
+        const p = pageNum || 1;
+        const l = limitNum || 6;
+        const skip = (p - 1) * l;
+        const totalPages = Math.ceil(total / l) || 1;
+        const courses = allCourses.slice(skip, skip + l);
+        return res.json({
+          success: true,
+          count: courses.length,
+          total,
+          page: p,
+          limit: l,
+          totalPages,
+          courses,
+        });
+      }
+
+      res.json({
+        success: true,
+        count: allCourses.length,
+        total,
+        page: 1,
+        limit: allCourses.length,
+        totalPages: 1,
+        courses: allCourses,
+      });
+    } catch (fallbackErr) {
+      console.error("Fatal fallback error:", fallbackErr);
+      res.status(500).json({ success: false, message: "Error fetching courses", error: error.message });
+    }
   }
 });
 
