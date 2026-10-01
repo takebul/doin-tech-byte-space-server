@@ -1465,5 +1465,455 @@
         "date": "3 days ago"
       }
     ]
+  },
+  {
+    "id": 19,
+    "slug": "music-production-sound-design",
+    "title": "Music Production & Sound Design",
+    "author": "EchoWave Audio Lab",
+    "authorId": "echowave-audio",
+    "authorAvatar": "/avatar-1.png",
+    "authorBio": "Electronic music producer and audio engineer with over 10 years experience producing chart-topping tracks.",
+    "rating": 4.9,
+    "level": "All Levels",
+    "price": 35,
+    "currency": "$",
+    "billing": "lifetime",
+    "image": "/course-4.png",
+    "category": "Music",
+    "lessons": "22 Lessons",
+    "lessonsCount": 22,
+    "duration": "3 hours 20 mins",
+    "comments": "84 Comments",
+    "commentsCount": 84,
+    "description": "Master digital audio workstations, chord theory, vocal mixing, synthesis, and release-ready mastering.",
+    "overview": "Dive into the art and science of modern music production. Learn chord theory, drum sequencing, synthesizer sound design, EQ, compression, and professional audio mixing workflows.",
+    "youtubeVideoId": "rgaTLrZGlk0",
+    "whatYouWillLearn": [
+      "Master modern DAW workflows, MIDI routing, and audio interfaces",
+      "Build captivating chord progressions and infectious melodies",
+      "Sculpt custom synthesizer patches with subtractive and FM synthesis",
+      "Mix and master full tracks for Spotify and Apple Music distribution"
+    ],
+    "syllabus": [
+      {
+        "sectionTitle": "Section 1: Music Theory & Rhythm Architecture",
+        "lessons": [
+          {
+            "number": "01",
+            "title": "Modern Chord Progressions & Harmonies",
+            "duration": "18 mins",
+            "preview": true
+          },
+          {
+            "number": "02",
+            "title": "Drum Programming & Groove Velocity",
+            "duration": "24 mins",
+            "preview": false
+          }
+        ]
+      },
+      {
+        "sectionTitle": "Section 2: Mixing & Spatial Audio",
+        "lessons": [
+          {
+            "number": "03",
+            "title": "Surgical EQ & Dynamic Multiband Compression",
+            "duration": "26 mins",
+            "preview": true
+          },
+          {
+            "number": "04",
+            "title": "Final Mastering Chains for Streaming Loudness",
+            "duration": "22 mins",
+            "preview": false
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "id": 1,
+        "user": "Marcus Bell",
+        "rating": 5,
+        "comment": "The music theory section blew my mind. Made my first track in 48 hours!",
+        "date": "2 days ago"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "slug": "creative-brand-marketing-viral-campaigns",
+    "title": "Creative Brand Marketing & Campaigns",
+    "author": "Vanguard Creative",
+    "authorId": "vanguard-creative",
+    "authorAvatar": "/avatar-2.png",
+    "authorBio": "Award-winning creative strategists behind memorable consumer campaigns and viral product launches.",
+    "rating": 4.85,
+    "level": "Intermediate",
+    "price": 32,
+    "currency": "$",
+    "billing": "lifetime",
+    "image": "/course-5.png",
+    "category": "Creative Marketing",
+    "lessons": "20 Lessons",
+    "lessonsCount": 20,
+    "duration": "2 hours 55 mins",
+    "comments": "76 Comments",
+    "commentsCount": 76,
+    "description": "Craft unforgettable brand narratives, launch viral organic activations, and build high-affinity communities.",
+    "overview": "Learn how top consumer brands break through the noise. Explore distinctive brand assets, culture jacking, emotional hooks, and positioning strategies that generate earned media.",
+    "youtubeVideoId": "u4ZoJKF_VuA",
+    "whatYouWillLearn": [
+      "Define distinctive brand archetypes and strategic positioning",
+      "Engineer organic viral loops and guerilla marketing activations",
+      "Build high-retention community ambassadors and advocates",
+      "Measure brand equity and earned media value accurately"
+    ],
+    "syllabus": [
+      {
+        "sectionTitle": "Section 1: Brand Essence & Unorthodox Positioning",
+        "lessons": [
+          {
+            "number": "01",
+            "title": "The Golden Circle of Brand Identity",
+            "duration": "16 mins",
+            "preview": true
+          },
+          {
+            "number": "02",
+            "title": "Identifying Cultural White Space",
+            "duration": "22 mins",
+            "preview": false
+          }
+        ]
+      },
+      {
+        "sectionTitle": "Section 2: Viral Mechanics & Earned Media",
+        "lessons": [
+          {
+            "number": "03",
+            "title": "Designing Shareable Brand Moments",
+            "duration": "25 mins",
+            "preview": true
+          },
+          {
+            "number": "04",
+            "title": "Amplifying PR Stunts with Digital Retargeting",
+            "duration": "21 mins",
+            "preview": false
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "id": 1,
+        "user": "Chloe Bennett",
+        "rating": 5,
+        "comment": "Changed how our whole agency thinks about creative marketing campaigns.",
+        "date": "4 days ago"
+      }
+    ]
+  },
+  {
+    "id": 21,
+    "slug": "cinematography-film-video-production",
+    "title": "Cinematography & Video Production",
+    "author": "CineCraft Studio",
+    "authorId": "cinecraft-studio",
+    "authorAvatar": "/avatar-3.png",
+    "authorBio": "Indie filmmaker and commercial director with credits on Netflix documentaries and global brand commercials.",
+    "rating": 4.95,
+    "level": "Intermediate",
+    "price": 42,
+    "currency": "$",
+    "billing": "lifetime",
+    "image": "/course-7.png",
+    "category": "Film & Video",
+    "lessons": "25 Lessons",
+    "lessonsCount": 25,
+    "duration": "4 hours 15 mins",
+    "comments": "128 Comments",
+    "commentsCount": 128,
+    "description": "Master camera movement, 3-point cinematic lighting, storyboarding, and color grading in DaVinci Resolve.",
+    "overview": "Take your video projects from amateur to cinematic perfection. Discover camera sensor physics, focal length storytelling, negative fill lighting, motivated camera movements, and film emulation.",
+    "youtubeVideoId": "8rAe8RuICYM",
+    "whatYouWillLearn": [
+      "Master manual exposure, shutter angles, and cinematic focal lengths",
+      "Design atmospheric 3-point lighting setups on any budget",
+      "Direct fluid camera movements using gimbals, sliders, and handheld rigs",
+      "Grade professional log footage with custom tone curves and film LUTs"
+    ],
+    "syllabus": [
+      {
+        "sectionTitle": "Section 1: Visual Language & Camera Control",
+        "lessons": [
+          {
+            "number": "01",
+            "title": "The Emotional Impact of Focal Lengths",
+            "duration": "19 mins",
+            "preview": true
+          },
+          {
+            "number": "02",
+            "title": "Motivated Camera Motion & Blocking",
+            "duration": "27 mins",
+            "preview": false
+          }
+        ]
+      },
+      {
+        "sectionTitle": "Section 2: Lighting & Color Grading",
+        "lessons": [
+          {
+            "number": "03",
+            "title": "Sculpting Faces with Key, Fill & Rim Lights",
+            "duration": "24 mins",
+            "preview": true
+          },
+          {
+            "number": "04",
+            "title": "Color Grading Log Footage in DaVinci Resolve",
+            "duration": "30 mins",
+            "preview": false
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "id": 1,
+        "user": "David Sterling",
+        "rating": 5,
+        "comment": "The cinematography tips instantly elevated my commercial reels.",
+        "date": "1 week ago"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "slug": "handcrafted-ceramics-pottery-clay",
+    "title": "Handcrafted Ceramics & Clay Design",
+    "author": "Terra & Wheel Studio",
+    "authorId": "terra-wheel",
+    "authorAvatar": "/avatar-4.png",
+    "authorBio": "Master ceramicist and sculptor exhibiting handcrafted clay collections across international galleries.",
+    "rating": 4.8,
+    "level": "Beginner",
+    "price": 28,
+    "currency": "$",
+    "billing": "lifetime",
+    "image": "/course-8.png",
+    "category": "Crafts",
+    "lessons": "18 Lessons",
+    "lessonsCount": 18,
+    "duration": "2 hours 45 mins",
+    "comments": "64 Comments",
+    "commentsCount": 64,
+    "description": "Learn clay preparation, wheel centering, slab building, underglaze decoration, and kiln firing techniques.",
+    "overview": "Experience the therapeutic and creative craft of pottery. From wedge-centering on the wheel to carving organic textures, this beginner-friendly course teaches traditional and modern clay crafting.",
+    "youtubeVideoId": "41bEeL8rVs4",
+    "whatYouWillLearn": [
+      "Wedge, center, and pull balanced clay cylinders on the pottery wheel",
+      "Construct architectural ceramic vessels using slab and coil methods",
+      "Mix custom ceramic glazes and paint expressive botanical underglazes",
+      "Safely bisque and glaze fire finished stoneware pieces"
+    ],
+    "syllabus": [
+      {
+        "sectionTitle": "Section 1: Clay Chemistry & Wheel Centering",
+        "lessons": [
+          {
+            "number": "01",
+            "title": "Understanding Clay Bodies & Moisture Stages",
+            "duration": "15 mins",
+            "preview": true
+          },
+          {
+            "number": "02",
+            "title": "The Physics of Wheel Centering",
+            "duration": "24 mins",
+            "preview": false
+          }
+        ]
+      },
+      {
+        "sectionTitle": "Section 2: Glazing & Surface Design",
+        "lessons": [
+          {
+            "number": "03",
+            "title": "Carving Textures & Leather-Hard Trimming",
+            "duration": "20 mins",
+            "preview": true
+          },
+          {
+            "number": "04",
+            "title": "Dipping, Pouring & Glaze Chemistry",
+            "duration": "22 mins",
+            "preview": false
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "id": 1,
+        "user": "Emily Rivera",
+        "rating": 5,
+        "comment": "So calming and informative. Made my first complete ceramic set!",
+        "date": "3 days ago"
+      }
+    ]
+  },
+  {
+    "id": 23,
+    "slug": "mastering-commercial-photography",
+    "title": "Commercial & Portrait Photography",
+    "author": "Lumen Photography Lab",
+    "authorId": "lumen-photo",
+    "authorAvatar": "/avatar-5.png",
+    "authorBio": "Editorial photographer featured in Vogue, Architectural Digest, and commercial agency campaigns.",
+    "rating": 4.9,
+    "level": "All Levels",
+    "price": 36,
+    "currency": "$",
+    "billing": "lifetime",
+    "image": "/course-2.png",
+    "category": "Photography",
+    "lessons": "21 Lessons",
+    "lessonsCount": 21,
+    "duration": "3 hours 35 mins",
+    "comments": "92 Comments",
+    "commentsCount": 92,
+    "description": "Master camera exposure, ambient flash balance, studio strobe modifiers, and portrait retouching in Lightroom.",
+    "overview": "Capture striking, editorial-grade portraits and commercial product photos. Learn the exposure triangle, off-camera flash lighting, model posing communication, and color grading workflows in Lightroom and Photoshop.",
+    "youtubeVideoId": "7ZVyNjKSr0M",
+    "whatYouWillLearn": [
+      "Master manual exposure, dynamic range, and prime lens optics",
+      "Control studio strobes with softboxes, beauty dishes, and scrims",
+      "Direct natural poses and authentic expressions on portrait shoots",
+      "Retouch skin and grade colors professionally in Adobe Lightroom"
+    ],
+    "syllabus": [
+      {
+        "sectionTitle": "Section 1: Exposure Triangle & Natural Light",
+        "lessons": [
+          {
+            "number": "01",
+            "title": "Aperture, Shutter & ISO in Action",
+            "duration": "18 mins",
+            "preview": true
+          },
+          {
+            "number": "02",
+            "title": "Working with Golden Hour & Harsh Sunlight",
+            "duration": "23 mins",
+            "preview": false
+          }
+        ]
+      },
+      {
+        "sectionTitle": "Section 2: Studio Lighting & Commercial Retouching",
+        "lessons": [
+          {
+            "number": "03",
+            "title": "Softbox Modifiers & Rim Light Separation",
+            "duration": "28 mins",
+            "preview": true
+          },
+          {
+            "number": "04",
+            "title": "High-End Frequency Separation Retouching",
+            "duration": "25 mins",
+            "preview": false
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "id": 1,
+        "user": "Jason Thorne",
+        "rating": 5,
+        "comment": "Steve McCurry's composition rules and lighting breakdowns are pure gold.",
+        "date": "5 days ago"
+      }
+    ]
+  },
+  {
+    "id": 24,
+    "slug": "artisan-culinary-gastronomy-cooking",
+    "title": "Artisan Culinary & Modern Cooking",
+    "author": "Chef Olivier Gastronomie",
+    "authorId": "chef-olivier",
+    "authorAvatar": "/avatar-6.png",
+    "authorBio": "Michelin-trained executive chef sharing fine dining techniques adapted for everyday home kitchens.",
+    "rating": 4.92,
+    "level": "Beginner",
+    "price": 34,
+    "currency": "$",
+    "billing": "lifetime",
+    "image": "/course-3.png",
+    "category": "Cooking",
+    "lessons": "19 Lessons",
+    "lessonsCount": 19,
+    "duration": "3 hours 10 mins",
+    "comments": "115 Comments",
+    "commentsCount": 115,
+    "description": "Transform home cooking with professional knife skills, flavor layering, sauce emulsions, and plating aesthetics.",
+    "overview": "Cook like a professional chef without the culinary school tuition. Learn the fundamentals of heat control, maillard browning, mother sauces, acid-salt balancing, and restaurant plating presentation.",
+    "youtubeVideoId": "dCGS067s0zo",
+    "whatYouWillLearn": [
+      "Master French chef knife cuts (julienne, brunoise, chiffonade)",
+      "Build complex flavor bases with mirepoix, stocks, and reductions",
+      "Execute foolproof pan-searing, braising, and sauce emulsions",
+      "Plate dishes with color harmony, height, and textural contrast"
+    ],
+    "syllabus": [
+      {
+        "sectionTitle": "Section 1: Knife Mastery & Kitchen Fundamentals",
+        "lessons": [
+          {
+            "number": "01",
+            "title": "Knife Sharpening & Precision Cuts",
+            "duration": "16 mins",
+            "preview": true
+          },
+          {
+            "number": "02",
+            "title": "The Science of Salt, Acid, Fat & Heat",
+            "duration": "24 mins",
+            "preview": false
+          }
+        ]
+      },
+      {
+        "sectionTitle": "Section 2: Pan Sauces & Restaurant Plating",
+        "lessons": [
+          {
+            "number": "03",
+            "title": "Velvety Reductions & Pan-Sauce Emulsions",
+            "duration": "22 mins",
+            "preview": true
+          },
+          {
+            "number": "04",
+            "title": "Fine Dining Plating Architecture",
+            "duration": "26 mins",
+            "preview": false
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "id": 1,
+        "user": "Sophie Martin",
+        "rating": 5,
+        "comment": "My family thinks I went to culinary school in Paris. Amazing course!",
+        "date": "2 days ago"
+      }
+    ]
   }
 ]
